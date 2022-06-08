@@ -40,8 +40,6 @@ try:
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
-
-streamlit.stop()   
     
 streamlit.header("The fruit load list contains:")
 #Snowflake-related functions
