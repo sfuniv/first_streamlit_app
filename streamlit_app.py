@@ -42,7 +42,6 @@ try:
       streamlit.dataframe(back_from_function)
 
     
-
     
 streamlit.header("The fruit load list contains:")
 #Snowflake-related functions
