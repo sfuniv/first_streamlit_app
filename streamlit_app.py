@@ -1,5 +1,5 @@
 import streamlit
-import urllib.error import URLError
+#import urllib.error import URLError
 
 streamlit.title('My Mom\'s New Healthy Diner')
 
