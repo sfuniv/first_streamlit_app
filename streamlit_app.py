@@ -41,7 +41,6 @@ try:
       back_from_function = get_fruityvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
 
-
 #New Section to display fruityvice api response
 #streamlit.header('Fruityvice Fruit Advice!')
 #fruit_choice = streamlit.text_input('What fruit would you like information about?', 'Kiwi')
@@ -72,4 +71,3 @@ try:
 
 #This will not work correctly, but just go with it for now
 #my_cur.execute("insert into fruit_load values ('from streamlit')")
-
